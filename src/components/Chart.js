@@ -59,7 +59,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
 
     return (
 
-        <div className="w-5/6 md:3/4">
+        <div className="w-3/4">
             {country ? barChart : lineChart}
         </div>
     )

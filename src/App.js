@@ -27,7 +27,7 @@ class App extends React.Component {
     render () {
         const {data, country} = this.state
         return (
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center h-screen p-20">
                 <Cards data={data} />
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
